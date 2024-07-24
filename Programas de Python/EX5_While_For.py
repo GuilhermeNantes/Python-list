@@ -1,16 +1,18 @@
-a = []
-d = []
-c = []
-for i in range(20):
-    o = int(input("digite um numeiro: "))
-    if o % 2 == 0:
-        a.append(o)
-    elif o % 2 == 1:
-        d.append(o)
+s = []
+a = str(input("digite sua palavra: "))
+for i in a:
+    
+    if i in "Aa":
+        s.append(i)
+    elif i in "Ee":
+        s.append(i)
+    elif i in "Ii":
+        s.append(i)
+    elif i in "Oo":
+        s.append(i)
+    elif i in "Uu":
+        s.append(i)
     else:
-        c.append(o)
+         continue
 
-print("par",a)
-print("impar",d)
-print("os numeiro digitados",c)
-             
+print(s)
